@@ -1,0 +1,383 @@
+<!--
+COPYRIGHT 2026 ITINERAE.ORG
+
+PAID LAYOUT TEMPLATE - ALL RIGHTS RESERVED
+
+This file is part of a commercial website layout sold on Ko-fi.
+
+You may NOT:
+
+* copy or redistribute any part of this code here !
+* repost or leak the files
+* claim this work as your own
+
+Support independent artists and creators, dont steal the code. Thank you. :)
+
+Shop this layout here:
+
+ko-fi.com/itinerae/shop
+
+-->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>DEMO - Berry Blush -  cute pastel HTML/CSS layout by Itinerae </title>
+  <link rel="shortcut icon" href="https://webdec.neocities.org/food/nyarose_icon_fruit128.gif">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Responsive premade HTML and CSS website layout by Itinerae. Designed for personal websites, Neocities and Nekoweb.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gaegu:wght@400;700&display=swap" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Silkscreen:wght@400;700&display=swap"
+      rel="stylesheet">
+  
+  
+  
+
+
+  <style>
+    
+    
+    /*
+This demo CSS is minified to prevent misuse.
+The purchased version includes a clear, fully readable CSS file.
+*/
+    
+    
+@font-face {font-family: "rainy";src: url("https://files.catbox.moe/r4oudq.ttf");}@font-face {font-family: "pixel";src: url("https://dl.dropbox.com/s/kmhe7d3n18vdz5e/w95fa.woff?dl=0");}* {box-sizing: border-box;}body {margin: 0;padding: 20px;background: #f0f0f0 url(https://itinerae.nekoweb.org/premium/20/strawberry-bg.jpg);font-family: "rainy", calibri, verdana, arial;font-size: 14px;text-align: left;text-shadow: 0px 0px 1px #bbb;color: #c8a88f;letter-spacing: 1px;line-height: 16px;}textarea {background: #fff;border: 1px solid #8d2524;font: 10px tahoma, arial;}a {color: #d66b6a;text-decoration: none;transition: 0.2s ease;}a:hover {color: #ff9d9c;text-shadow: 0 0 4px #ff7472;}a:active {color: #b04544;}b {font-weight: bold;color: #d57574;}i {color: #b98a9f;}::selection {background: #ffd9df;color: #b94c5c;}::-webkit-scrollbar {width: 10px;}::-webkit-scrollbar-track {background: #fff2f2;}::-webkit-scrollbar-thumb {background: #e7a0a4;border-radius: 5px;border: 2px solid #fff2f2;}::-webkit-scrollbar-thumb:hover {background: #d66b6a;}.layout {max-width: 722px;margin: 40px auto;border-radius: 10px;overflow: hidden;border: 1px dotted #E39B52;border-width: 12px;border-style: solid;border-image: url("https://itinerae.nekoweb.org/premium/20/lace-border.png") 11 fill round;box-shadow: 0 0 18px rgba(216, 129, 134, 0.25);background: #fff7f7;}.lace {height: 103px;background: linear-gradient(to bottom, rgba(255,255,255,0.35), rgba(255,230,235,0.25)), #fff2f2 url(https://itinerae.nekoweb.org/premium/20/lacetop.webp) repeat-x;color: #bcaccc;border-top-right-radius: 30px;border-top-left-radius: 30px;}.banner {width: 100%;height: 150px;background: linear-gradient( to bottom, rgba(255, 239, 245, 0.72), rgba(255, 212, 225, 0.42), rgba(255, 250, 250, 0.65) ), url(https://itinerae.nekoweb.org/premium/20/banner.webp) center/cover no-repeat;display: flex;justify-content: center;align-items: center;border-top: 1px dotted #E39B52;border-bottom: 1px dotted #f2cbce;position: relative;}.banner:before {content: "";position: absolute;left: 12px;right: 12px;top: 12px;bottom: 12px;border: 1px dotted rgba(232, 128, 126, 0.55);border-radius: 18px;pointer-events: none;box-shadow: inset 0 0 15px rgba(255,255,255,0.45);}.banner:after {content: "";position: absolute;left: 0;right: 0;bottom: 0;height: 24px;background: linear-gradient(to top, rgba(255,247,247,0.85), transparent);pointer-events: none;}.banner-inner {text-align: center;display: flex;flex-direction: column;align-items: center;position: relative;z-index: 2;}.site-name {position: relative;display: inline-block;padding: 10px 45px 12px;font-family: 'pixel', monospace, sans-serif;font-size: 23px;letter-spacing: 3px;color: #d96f79;text-shadow: 0 1px 0 #fff, 0 0 8px rgba(255,255,255,.9), 0 0 12px rgba(255,180,190,.45);z-index: 2;}.site-name::before {content: "";position: absolute;inset: 0;z-index: -1;background: linear-gradient( to right, rgba(255,255,255,0), rgba(255,252,252,.55) 18%, rgba(255,245,247,.88) 50%, rgba(255,252,252,.55) 82%, rgba(255,255,255,0) );border-top: 1px solid rgba(255,255,255,.45);border-bottom: 1px solid rgba(255,220,228,.45);filter: blur(0.2px);}.navigation {background: linear-gradient(to bottom, #fffafa, #fff0f2);border-top: 1px dotted #E39B52;border-bottom: 1px dotted #E39B52;padding: 7px;box-shadow: inset 0 1px 0 #fff, inset 0 -1px 0 #ffdfe4;}.navi-link {display: flex;flex-wrap: wrap;justify-content: center;gap: 5px;}.navi-link a {display: inline-block;font-family: "Silkscreen", monospace;font-size: 11px;font-style: normal;line-height: 14px;padding: 2px 12px 2px 12px;letter-spacing: 1px;font-weight: normal;color: #fffaf7;white-space: nowrap;background: linear-gradient(to bottom, #f8b7b0, #ec8d8d);border: 1px solid #e39a9d;border-radius: 18px;box-shadow: inset 0 1px 0 rgba(255,255,255,0.45), inset 0 -1px 0 rgba(190,88,94,0.18), 0 1px 3px rgba(213,112,117,0.18);text-shadow: 0 1px 1px rgba(166,70,76,0.45);}.navi-link a:hover {color: #fff;background: linear-gradient(to bottom, #ffc0ba, #f19a99);border-color: #e6a5a8;text-shadow: 0 1px 1px rgba(166,70,76,0.38), 0 0 5px rgba(255,255,255,0.6);box-shadow: inset 0 1px 0 rgba(255,255,255,0.45), inset 0 -1px 0 rgba(190,88,94,0.14), 0 1px 2px rgba(213,112,117,0.14);}.main {display: grid;grid-template-columns: 1fr 2fr 1fr;background: #ffeef1;gap: 1px;border-top: 1px solid #f5ccd1;border-bottom: 1px solid #f5ccd1;}.column {padding: 8px;background: linear-gradient(to bottom, #fff9f9, #fff1f3);min-width: 0;}.column:nth-child(1) {border-right: 1px dotted #efb0b6;}.column:nth-child(2) {background: linear-gradient(to bottom, #fffdfd, #fff4f5);}.column:nth-child(3) {border-left: 1px dotted #efb0b6;}.box {background: linear-gradient(to bottom, #ffffff, #fff8f8);border: 1px solid #f1c2c6;border-radius: 8px;padding: 6px;margin-bottom: 8px;box-shadow: inset 0 0 0 1px rgba(255,255,255,0.85), 2px 2px 0 rgba(246, 202, 206, 0.45);}.box:last-child {margin-bottom: 0;}.box p {margin: 0 0 7px;}.box p:last-child {margin-bottom: 0;}.title {background: linear-gradient(to right, #fff, #fff0f3);border-left: 5px solid #f2cbce;border-right: 1px dotted #efb0b6;border-top: 1px dotted #efb0b6;border-bottom: 1px dotted #efb0b6;text-transform: lowercase;font-family: "Gaegu", arial;font-size: 15px;color: #e8807e;line-height: 12px;padding: 3px 5px 3px 5px;margin-bottom: 5px;letter-spacing: 1px;border-radius: 7px 7px 3px 3px;box-shadow: inset 0 0 6px rgba(255,214,220,0.55);}.icon {float: right;opacity: 0.8;margin-top: -1px;}.icon-left {float: left;opacity: 0.8;margin-top: -1px;}.title-big {background: linear-gradient(to right, #fff1f4, #fff, #fff1f4);text-align: center;text-transform: lowercase;font-family: "Gaegu", arial;font-size: 17px;color: #e8807e;line-height: 13px;padding: 4px 6px 3px 6px;margin-bottom: 6px;letter-spacing: 2px;border: 1px dotted #e7a0a4;border-radius: 10px;box-shadow: inset 0 0 8px rgba(255,219,224,0.9), 0 2px 0 rgba(246, 202, 206, 0.65);}.profile-card {text-align: center;}.profile-img {width: 84px;height: 84px;object-fit: cover;display: block;margin: 10px auto 8px;padding: 3px;background: #fff;border: 1px dashed #e39a9d;border-radius: 6px;box-shadow: 3px 3px 0 rgba(242,203,206,0.45);}.profile-name {display: inline-block;margin-bottom: 6px;padding: 2px 12px 3px;font-family: "Gaegu", georgia, cursive;font-size: 17px;line-height: 17px;color: #d96f79;letter-spacing: 1px;background: linear-gradient( to right, rgba(255,255,255,0), rgba(255,246,247,0.9), rgba(255,255,255,0) );}.profile-text {text-align: justify;color: #b97880;margin-bottom: 6px;}.profile-details {margin: 0;padding: 0;list-style: none;text-align: left;}.profile-details li {padding: 2px 0;border-bottom: 1px dotted #f1c2c6;color: #c8a88f;}.profile-details li:last-child {border-bottom: 0;}.profile-details b {color: #d57574;font-weight: bold;}.note {background: #fff8f8;border-left: 3px solid #f2cbce;padding: 5px;margin-top: 6px;margin-bottom: 6px;border-radius: 0 6px 6px 0;color: #b97880;line-height: 15px;font-size: 13px;}.tiny-list {margin: 5px 0 0;padding: 0;list-style: none;}.tiny-list li {border-bottom: 1px dotted #f1c2c6;padding: 2px 0;color: #b98a9f;}.mini-boxes {display: grid;grid-template-columns: 1fr 1fr;gap: 5px;margin-top: 7px;}.mini-box {background: #fff4f6;border: 1px dotted #efb0b6;border-radius: 7px;padding: 5px;text-align: center;color: #ad7f92;font-size: 13px;}.miniblog {display: flex;flex-direction: column;gap: 6px;}.mini-post {display: grid;grid-template-columns: 45px 1fr;gap: 7px;align-items: start;background: #fffafa;border: 1px dotted #f1c2c6;border-radius: 8px;padding: 5px;box-shadow: inset 0 0 7px rgba(255, 225, 231, 0.45);}.mini-post img {width: 45px;height: 45px;object-fit: cover;border: 1px solid #efb0b6;border-radius: 7px;opacity: 0.9;filter: saturate(0.9) brightness(1.04);}.mini-post-content {min-width: 0;}.mini-post-title {display: block;margin-bottom: 2px;font-family: "Gaegu", georgia, cursive;font-size: 15px;line-height: 14px;color: #d96f79;letter-spacing: 1px;}.mini-post-meta {display: block;margin-bottom: 3px;font-size: 13px;color: #b97880;opacity: 0.85;}.mini-post-text {color: #c8a88f;line-height: 14px;}.button-list {display: flex;flex-direction: column;align-items: center;gap: 10px;margin-top: 10px;margin-bottom:10px;}.button-list a {display: block;width: 96px;padding: 3px;background: #fffafa;border: 1px solid #efb0b6;border-radius: 5px;box-shadow: inset 0 0 0 1px rgba(255,255,255,0.9), 2px 2px 0 rgba(242,203,206,0.45);}.button-list a:hover {background: #fff2f4;border-color: #e39a9d;transform: translateY(1px);box-shadow: inset 0 0 0 1px rgba(255,255,255,0.9), 1px 1px 0 rgba(242,203,206,0.45);}.button-list img {display: block;width: 88px;height: 31px;opacity:0.8;}.footer {background: linear-gradient(to bottom, #fff7f7, #ffe8ec);color: #c47f78;border-top: 1px dotted #E39B52;border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;padding: 8px;text-align: center;line-height: 14px;letter-spacing: 1px;box-shadow: inset 0 1px 0 #fff, inset 0 0 8px rgba(255, 215, 222, 0.7);}.footer a {color: #d66b6a;border-bottom: 1px dotted #e8807e;}.footer a:hover {color: #ff8d8b;text-shadow: 0 0 4px #fff;}@media (max-width: 768px) {body {padding:10px;}.layout {margin: 20px auto;}.main {grid-template-columns: 1fr;}.column:nth-child(1), .column:nth-child(2), .column:nth-child(3) {border-left:0;border-right:0;border-bottom:1px dotted #efb0b6;}.navi-link {justify-content:center;}.navi-link a {width: calc(50% - 5px);text-align:center;padding-left:5px;padding-right:5px;}.banner {height:130px;}.site-name {font-size:18px;line-height:20px;padding:8px 12px 10px;}}@media (max-width: 420px) {.navi-link a {width:100%;}.mini-boxes {grid-template-columns:1fr;}}
+
+  </style>
+</head>
+
+<body>
+  
+  
+  
+         <!-- Container starts -->
+ 
+
+<div class="layout">
+    
+    
+                <!-- Top decoration + banner -->
+
+    <header class="lace"></header>
+
+    <div class="banner">
+        <div class="banner-inner">
+            <span class="site-name">Site name here.</span>
+        </div>
+    </div>
+    
+    
+    
+         <!-- Navigation -->
+
+
+    <nav class="navigation">
+        <div class="navi-link">
+            <a href="">home</a>
+            <a href="">link here</a>
+            <a href="">link here</a>
+            <a href="">link here</a>
+            <a href="">link here</a>
+        </div>
+    </nav>
+    
+    
+  
+  
+  
+          <!-- Main area starts: left sidebar, middle column, right sidebar -->
+
+  
+        <main class="main">
+        
+        
+          
+          
+        <!-- Left sidebar -->
+
+        
+        <aside class="column">
+            
+            
+
+            <div class="box profile-card">
+                <div class="title">profile <img src="https://itinerae.nekoweb.org/premium/20/redberry.gif" alt="strawberry" class="icon"></div>
+
+                <img src="https://itinerae.nekoweb.org/premium/20/bunnypfp.jpg" alt="profile image" class="profile-img">
+
+                <div class="profile-name">your name</div>
+
+                <div class="profile-text">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique tellus arcu, nec pulvinar dolor pretium in.
+</div>
+
+                <ul class="profile-details">
+                    <li><b>age:</b> <i>unknown</i></li>
+                    <li><b>from:</b> <i>somewhere</i></li>
+                    <li><b>mood:</b> <i>dreamy</i></li>
+                </ul>
+
+            </div>
+            
+            
+
+
+            <div class="box">
+                <div class="title">title here <img src="https://itinerae.nekoweb.org/premium/20/redberry.gif" alt="strawberry" class="icon"></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique tellus arcu, nec pulvinar dolor pretium in.</p>
+                <ul class="tiny-list">
+                    <li>small list item</li>
+                    <li>small list item</li>
+                    <li>small list item</li>
+                </ul>
+            </div>
+
+
+
+            <div class="box">
+                <div class="title">title here <img src="https://itinerae.nekoweb.org/premium/20/redberry.gif" alt="strawberry" class="icon"></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac volutpat tortor. Mauris elementum augue vel massa sagittis aliquam.</p>
+            </div>
+            
+
+        </aside> 
+        <!-- Left sidebar ends -->
+        
+        
+      
+      
+      
+        
+
+         <!-- Middle column starts -->
+
+        <div class="column">
+            
+            
+
+            <div class="box">
+                <div class="title-big">
+                    <img src="https://itinerae.nekoweb.org/premium/20/pinkberry.gif" alt="pinkberry" class="icon-left"> title center
+                    <img src="https://itinerae.nekoweb.org/premium/20/pinkberry.gif" alt="pinkberry" class="icon">
+                </div>
+
+                <p><b>Bold text</b> <i>Italic text</i> <a href="">Link</a> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique tellus arcu, nec pulvinar dolor pretium in.</p>
+                
+                <div class="note">
+                     <b>Demo Only - Not for Use</b><br>
+                        This is a preview of a paid HTML/CSS layout by Itinerae.<br>
+                        Please do NOT copy any codes from this demo.<br>
+                        
+                        <b>Shop here:</b>
+                        
+                        <a href="https://ko-fi.com/itinerae/shop">ko-fi.com/itinerae/shop</a>
+                </div>
+                
+
+            </div>
+            
+          
+          
+            
+            <!-- miniboxes -->
+
+            <div class="box">
+                <div class="title-big">
+                    <img src="https://itinerae.nekoweb.org/premium/20/pinkberry.gif" alt="pinkberry" class="icon-left"> mini boxes
+                    <img src="https://itinerae.nekoweb.org/premium/20/pinkberry.gif" alt="pinkberry" class="icon">
+                </div>
+
+                
+                <div class="mini-boxes">
+                    <div class="mini-box">
+
+                        <img src="https://itinerae.nekoweb.org/premium/20/cake1.gif" alt="x" height="40" style="opacity:0.7;">
+                        <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique tellus arcu, nec pulvinar dolor.</div>
+                    <div class="mini-box"><img src="https://itinerae.nekoweb.org/premium/20/cake2.gif" alt="x" height="40" style="opacity:0.7;">
+                        <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique tellus arcu, nec pulvinar dolor.</div>
+                </div>
+
+
+            </div>
+            
+            <!-- miniboxes end -->
+
+            
+            
+            
+            <!-- blog / updates starts -->
+
+            <div class="box">
+                <div class="title-big">
+                    <img src="https://itinerae.nekoweb.org/premium/20/pinkberry.gif" alt="pinkberry" class="icon-left"> tiny blog / updates
+                    <img src="https://itinerae.nekoweb.org/premium/20/pinkberry.gif" alt="pinkberry" class="icon">
+                </div>
+                
+                
+                
+
+                <div class="miniblog">
+                    
+
+                    <div class="mini-post">
+                        <img src="https://itinerae.nekoweb.org/premium/20/pngexample.png" alt="mini post thumbnail">
+
+                        <div class="mini-post-content">
+                            <span class="mini-post-title">title here</span>
+                            <span class="mini-post-meta">01.07.2026 - diary</span>
+                            <div class="mini-post-text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. A tiny update can go here.
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="mini-post">
+                        <img src="https://itinerae.nekoweb.org/premium/20/pngexample.png" alt="mini post thumbnail">
+
+                        <div class="mini-post-content">
+                            <span class="mini-post-title">title here</span>
+                            <span class="mini-post-meta">28.06.2026 - web</span>
+                            <div class="mini-post-text">
+                                Morbi tristique tellus arcu, nec pulvinar dolor pretium in. Short and simple.
+                            </div>
+                        </div>
+                    </div>
+                    
+
+                    <div class="mini-post">
+                        <img src="https://i.ibb.co/qL3sR1gP/ig-ridoll-42.png" alt="mini post thumbnail">
+
+                        <div class="mini-post-content">
+                            <span class="mini-post-title">and here</span>
+                            <span class="mini-post-meta">24.06.2026 - personal</span>
+                            <div class="mini-post-text">
+                                Nulla ac volutpat tortor. Mauris elementum augue vel massa sagittis aliquam.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+
+                </div>   <!-- miniblog ends -->
+
+            </div> <!-- blog / updates box ends -->
+          
+          
+ </div>   <!-- middle column ends -->
+
+        
+        
+      
+      
+      
+      
+      <!-- Right sideber starts -->
+
+        <aside class="column">
+
+            <div class="box">
+                <div class="title">title right <img src="https://itinerae.nekoweb.org/premium/20/redberry.gif" alt="strawberry" class="icon"></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique tellus arcu, nec pulvinar dolor pretium in.</p>
+                <div class="note">A small decorated note area.</div>
+
+            </div>
+          
+          
+
+            <div class="box">
+                <div class="title">list <img src="https://itinerae.nekoweb.org/premium/20/redberry.gif" alt="strawberry" class="icon"></div>
+
+                <ul class="tiny-list">
+                    <li>small list item</li>
+                    <li>small list item</li>
+                    <li><a href="">or maybe links </a></li>
+                </ul>
+
+            </div>
+          
+          
+
+            <div class="box">
+                <div class="title">title here <img src="https://itinerae.nekoweb.org/premium/20/redberry.gif" alt="strawberry" class="icon"></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac volutpat tortor.</p>
+            </div>
+
+            <div class="box">
+                <div class="title">title here <img src="https://itinerae.neocities.org/pixels/berryicon.gif" alt="strawberry" class="icon"></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+          
+          
+
+            <div class="box">
+                <div class="title">
+                    buttons
+                    <img src="https://itinerae.nekoweb.org/premium/20/redberry.gif" alt="strawberry" class="icon">
+                </div>
+              
+
+                <div class="button-list">
+                    <a href="">
+                        <img src="https://itinerae.nekoweb.org/premium/20/neopastel.png" alt="button">
+                    </a>
+
+                    <a href="">
+                        <img src="https://itinerae.nekoweb.org/premium/20/neopastel.png" alt="button">
+                    </a>
+
+                    <a href="">
+                        <img src="https://itinerae.nekoweb.org/premium/20/neopastel.png" alt="button">
+                    </a>
+
+                    <a href="">
+                        <img src="https://itinerae.nekoweb.org/premium/20/neopastel.png" alt="button">
+                    </a>
+                </div>
+              
+              
+              
+            </div>
+          
+          
+          
+
+        </aside> <!-- right sidebar ends -->
+      
+      
+      
+    </main> <!-- Main area ends -->
+
+  
+  
+  
+  
+
+    <!-- Credit section, do NOT delete this part of the code, thank u !-->
+
+
+
+    <footer class="footer">
+
+        layout made by <a href="https://itinerae.org" target="_blank">itinerae</a> - pixels <a href="https://web.archive.org/web/20160713151448/http://milky.geocities.jp/nyarose00/" target="_blank">x</a>
+      and <a href="https://webdec.neocities.org" target="_blank">x</a> - lace border <a href="https://scripted.neocities.org/images" target="_blank">x</a> - banner img <a href="https://animefood.tumblr.com/" target="_blank">x</a>
+
+    </footer>
+
+</div>
+
+
+
+</body>
+</html>  
+            
+            
+            
