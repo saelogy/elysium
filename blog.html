@@ -78,6 +78,12 @@ title: Blog
       color: #a9b778;
     }
 
+    ul {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
+}
+
    
 
 
@@ -625,7 +631,7 @@ title: Blog
       <div class="box">
         <ul>
     {% for post in site.posts %}
-        <li class="box">
+        <li class="mini-box">
             <h2>
                 <a href="{{ post.url | relative_url }}">
                     {{ post.title }}
